@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>board</title>
+</head>
+<body>
+	<form name="form1" enctype="multipart/form-data" action="/api/photo" method="post">
+		<table border="1" style="width:600px">
+			<caption>게시판</caption>
+			<colgroup>
+				<col width='15%' />
+				<col width='*%' />
+			</colgroup>
+			<tbody>
+				<tr>
+					<td>사진입력</td> 
+                    <td><input type="file" name="userPhoto" /></td>
+                    <td><button>Upload Image</button></td>
+                </tr>
+                
+            </tbody>
+            
+        </table>
+        
+		<!-- <a href="#" onclick="form1.submit()">저장</a> -->
+	</form>	
+</body>
+</html>
